@@ -1,0 +1,135 @@
+body {
+margin: 0;  
+font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(1s.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+}
+
+.cart {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.header-tilte {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-forc {
+    color: #bd00ceda;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  left: 85px;
+}
+
+.header-subtilte {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 75px;
+  text-align: center;
+  position: absolute;
+  left: 40px;
+}
+
+.history {
+    margin-top: 60px;
+}
+
+.history-tilte {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    width: 444px;
+    text-align: center;
+    color: #bd00ceda
+}
+
+.history-desc {
+    margin-top: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-2b{
+    position: absolute;
+    z-index: 0;
+    top: 156px;
+    left: -392px;
+}
+
+.images-3b{
+    position: absolute;
+    z-index: 0;
+    top: 142px;
+    left: -533px;
+}
+
+.images-1b{
+    position: absolute;
+    z-index: 0;
+    top: -38px;
+    left: -492px;
+}
+
+.header-subtilte span {
+    color: #bd00ceda;
+    font-weight: 600;
+}
